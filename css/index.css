@@ -1,0 +1,220 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+
+/* Navigation Bar */
+.navbar-dark .navbar-nav .nav-link {
+  position: relative;
+  font-size: 1.6rem;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #DB3195;
+}
+.navbar-dark .navbar-nav .nav-link {
+  padding: 23px 15px;
+}
+
+
+/* hover not working/fix */
+.navbar-brand img:hover {
+  background-image: url(/images/pinklogo.png);
+}
+
+.navbar-dark .navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  left: 30%;
+  right: 30%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  transition: transform 0.1s ease-in;
+}
+.navbar-dark .navbar-nav .nav-link:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.header-area {
+  position: relative;
+  height: 10vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  position: relative;
+  color: #0CEFED;
+  font-size: 1.6rem;
+}
+
+/* get dropdown info */
+.navbar .navbar-toggler {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.navbar .navbar-toggler .menu-icon-bar {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  height: 2px;
+  opacity: 0;
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  transition: all 0.3s ease-in;
+}
+.navbar .navbar-toggler .menu-icon-bar:first-child {
+  opacity: 1;
+  -webkit-transform: translateY(-1px) rotate(45deg);
+  -ms-sform: translateY(-1px) rotate(45deg);
+  transform: translateY(-1px) rotate(45deg);
+}
+.navbar .navbar-toggler .menu-icon-bar:last-child {
+  opacity: 1;
+  -webkit-transform: translateY(-1px) rotate(135deg);
+  -ms-sform: translateY(-1px) rotate(135deg);
+  transform: translateY(-1px) rotate(135deg);
+}
+.navbar .navbar-toggler.collapsed .menu-icon-bar {
+  opacity: 1;
+}
+.navbar .navbar-toggler.collapsed .menu-icon-bar:first-child {
+  -webkit-transform: translateY(-7px) rotate(0);
+  -ms-sform: translateY(-7px) rotate(0);
+  transform: translateY(-7px) rotate(0);
+}
+.navbar .navbar-toggler.collapsed .menu-icon-bar:last-child {
+  -webkit-transform: translateY(5px) rotate(0);
+  -ms-sform: translateY(5px) rotate(0);
+  transform: translateY(5px) rotate(0);
+}
+.navbar .navbar-toggler {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+/* Navigation collapsed icon burger menu */
+.navbar .navbar-toggler .menu-icon-bar {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  height: 2px;
+  background-color: #0CEFED;
+  opacity: 0;
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  transition: all 0.3s ease-in;
+}
+
+/* adds hover line but need to remove in mobile/burger menu */
+.nav-link::after {
+  background-color:#DB3195;
+}
+/* Profile picture and blurb */
+/* Create two equal columns that floats next to each other */
+.column {
+  width: 50%;
+  padding: 20px;
+  /* Should be removed. Only for demonstration  */
+  height: 600px; 
+  width: 600px;
+  /* probably need to figure out how to not have set height and width*/
+}
+.column img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.row {
+  margin: 10% auto;
+  justify-content: center;
+}
+.profileBlurb h3 {
+  text-align: justify;
+  color:#0CEFED;
+  line-height: 180%;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(left,#C90EA1, #2E066E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
+  }
+
+/* Footer info */
+.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before, .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.w3-container,.w3-panel{
+padding:0.01em 16px
+}
+.w3-padding-64{
+padding-top:64px!important;
+padding-bottom:64px!important
+}
+.w3-center .w3-bar{
+display:inline-block;
+width:auto
+}
+.w3-center{
+text-align:center!important
+}
+.w3-opacity,.w3-hover-opacity:hover{
+opacity:0.60
+}
+.w3-light-grey,.w3-hover-light-grey:hover{
+color:#0CEFED;
+background-color:black!important
+}
+.w3-xlarge{
+font-size:24px!important
+}
+.w3-medium{
+font-size:15px!important
+}
+.fa-linkedin {
+  color:#0CEFED;
+  padding: 10px;
+}
+.fa-linkedin:hover {
+  color: #DB3195;
+}
+
+.fa-github {
+  color:#0CEFED;
+  padding: 10px;
+}
+.fa-github:hover {
+  color: #DB3195;
+}
