@@ -130,7 +130,6 @@ body {
 .column {
   width: 50%;
   padding: 20px;
-  /* Should be removed. Only for demonstration  */
   height: 600px; 
   width: 600px;
   /* probably need to figure out how to not have set height and width*/
@@ -142,14 +141,13 @@ body {
   margin: 0 auto;
 }
 .row {
-  margin: 10% auto;
+  margin: 5% auto;
   justify-content: center;
 }
 .profileBlurb h3 {
   text-align: justify;
   color:#0CEFED;
   line-height: 180%;
-  
 }
 .row:after {
   content: "";
@@ -169,7 +167,10 @@ h2 {
       width: 100%;
   }
   }
-
+h4 {
+  color:#0CEFED;
+  text-align: center;
+}
 /* Footer info */
 .w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before, .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{
   content:"";
