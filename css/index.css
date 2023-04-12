@@ -49,7 +49,8 @@ body {
 
 .navbar-dark .navbar-nav .nav-link {
   position: relative;
-  color: #0CEFED;
+  color: white;
+  /* color: #0CEFED; */
   font-size: 1.6rem;
 }
 
@@ -113,7 +114,8 @@ body {
   left: 15px;
   right: 15px;
   height: 2px;
-  background-color: #0CEFED;
+  /* background-color: #0CEFED; */
+  background-color: white;
   opacity: 0;
   -webkit-transform: translateY(-1px);
   -ms-transform: translateY(-1px);
@@ -146,7 +148,8 @@ body {
 }
 .profileBlurb h3 {
   text-align: justify;
-  color:#0CEFED;
+  /* color:#0CEFED; */
+  color: white;
   line-height: 180%;
 }
 .row:after {
@@ -157,9 +160,10 @@ body {
 h2 {
   font-size: 50px;
   font-weight: bold;
-  background: -webkit-linear-gradient(left,#C90EA1, #2E066E);
+  color: white;
+  /* background: -webkit-linear-gradient(left,#C90EA1, #2E066E);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -168,7 +172,8 @@ h2 {
   }
   }
 h4 {
-  color:#0CEFED;
+  /* color:#0CEFED; */
+  color: white;
   text-align: center;
 }
 /* Footer info */
