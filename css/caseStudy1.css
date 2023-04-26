@@ -1,0 +1,21 @@
+.dogsherobanner {
+    text-align: center;
+}
+.profileBlurb h3 {
+    text-align: justify;
+    color: black;
+  }
+
+.row h4 {
+    text-align: left;
+    text-align: justify;
+    /* color: #666666; */
+    line-height: 1.5em;
+}
+.row h1 {
+    font-weight: bolder;
+}
+.row {
+    margin: 5% auto;
+   
+  }
