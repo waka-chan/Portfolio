@@ -1,6 +1,15 @@
-function getPassword() {
+'use strict'
+
+import { caseStudyPassword } from "./secret.js"
+
+window.checkPassword = function checkPassword() {
     const password = document.getElementById('exampleInputPassword1').value
     console.log(password)
+    if (password === caseStudyPassword) {
+        console.log('SUCCESS')
+    } else {
+        console.log('FAILED')
+    }
 }
 
 // jQuery(function($) {
