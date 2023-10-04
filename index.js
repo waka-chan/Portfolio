@@ -8,6 +8,8 @@ window.checkPassword = function checkPassword() {
     if (password === caseStudyPassword) {
         console.log('SUCCESS')
         window.location.href = "http://127.0.0.1:5502/caseStudy1.html"
+
+        // window.location.href = "http://caseStudy1.html"
     } else {
         console.log('FAILED')
     }
