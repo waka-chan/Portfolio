@@ -1,0 +1,6 @@
+name: Deploy Secrets
+on: push
+jobs:
+  deploy-secrets:
+    env:
+      CASE_STUDY_SECRET: ${{secrets.CASE_STUDY_SECRET}}
