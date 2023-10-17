@@ -5,5 +5,8 @@ jobs:
     name: Deploy Secrets
     runs-on: ubuntu-latest
     steps:
-      env:
-        CASE_STUDY_SECRET: ${{secrets.CASE_STUDY_SECRET}}
+      - name: Deploying Secrets
+        env:
+          CASE_STUDY_SECRET: ${{secrets.CASE_STUDY_SECRET}}
+        run: |
+            echo Secrets Deployed!
