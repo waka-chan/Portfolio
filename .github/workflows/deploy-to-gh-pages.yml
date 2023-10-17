@@ -1,6 +1,9 @@
-name: Deploy Secrets
+name: Deploy Secrets Workflow
 on: push
 jobs:
   deploy-secrets:
-    env:
-      CASE_STUDY_SECRET: ${{secrets.CASE_STUDY_SECRET}}
+    name: Deploy Secrets
+    runs-on: ubuntu-latest
+    steps:
+      env:
+        CASE_STUDY_SECRET: ${{secrets.CASE_STUDY_SECRET}}
