@@ -28,3 +28,21 @@
     max-width: 100px;
     height: auto;
 }
+
+h4 {
+    font-weight: 400;
+}
+
+.jumbotron {
+    background-color: #5865DB;
+    color: white;
+}
+
+.VOPImageHeader {
+    margin: 0;
+    padding: 0;
+}
+.VOPImageHeader img {
+    max-width: 100%;
+    height: auto;
+}

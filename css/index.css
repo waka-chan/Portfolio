@@ -48,6 +48,7 @@ body {
 .navbar-dark .navbar-nav .nav-link {
   position: relative;
   color: black;
+  background-color: white;
   /* color: #0CEFED; */
   font-size: 1.6rem;
 }

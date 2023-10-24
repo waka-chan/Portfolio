@@ -8,9 +8,9 @@ window.checkPassword = function checkPassword() {
     console.log(caseStudyPassword)
     if (password === caseStudyPassword) {
         console.log('SUCCESS')
-        window.location.href = "http://127.0.0.1:5502/caseStudy1.html"
+        // window.location.href = "http://127.0.0.1:5502/caseStudy1.html"
 
-        // window.location.href = "http://caseStudy1.html"
+        window.location.href = "https://wakakoux/caseStudy1.html"
     } else {
         console.log('FAILED')
     }
