@@ -141,12 +141,8 @@ body {
   margin: 5% auto;
   justify-content: center;
 }
-.profileBlurb h4 {
-  text-align: justify;
-  /* color:#0CEFED; */
-  color: black;
-  line-height: 180%;
-}
+
+
 .row:after {
   content: "";
   display: table;
@@ -158,7 +154,7 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 10%;
-  width: 80%;
+  /* width: 80%; */
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -232,7 +228,7 @@ font-size:15px!important
 }
 .highlight-word:before {
     content: '';
-    background: url(https://cdn2.hubspot.net/hubfs/1951809/text-highlight.png?t=1542708765973) no-repeat center center;
+    
     background-size: 100% auto;
     width: 108%;
     height: 100%;
@@ -245,3 +241,13 @@ font-size:15px!important
 .jumbotron {
   background-color: white;
 }
+
+
+.jumbotron img {
+  margin: 15px;
+}
+.lead {
+  text-align: justify;
+  line-height: 210%;
+}
+
