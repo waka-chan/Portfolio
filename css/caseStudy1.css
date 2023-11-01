@@ -36,6 +36,7 @@ h4 {
 .jumbotron {
     background-color: #5865DB;
     color: white;
+    z-index: 0;
 }
 
 
