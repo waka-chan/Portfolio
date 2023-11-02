@@ -34,7 +34,7 @@ h4 {
 }
 
 .jumbotron {
-    background-color: #5865DB;
+    background-color: #6BB5E9;
     color: white;
     z-index: 0;
 }
@@ -48,7 +48,4 @@ h4 {
 .VOPImageHeader img {
     max-width: 100%;
     height: auto;
-}
-.dogjumbotron {
-    background-color: #6BB5E9;
 }
