@@ -1,10 +1,10 @@
 .dogsherobanner {
     text-align: center;
 }
-.profileBlurb h3 {
+/* .profileBlurb h3 {
     text-align: justify;
     color: black;
-  }
+  } */
 
 .row h4 {
     text-align: left;
@@ -19,10 +19,10 @@
     font-weight: bolder;
     color: black;
 }
-.row {
+/* .row {
     margin: 5% auto;
    
-  }
+  } */
 .vopresponsive {
     width: 100%;
     max-width: 100px;
@@ -48,4 +48,27 @@ h4 {
 .VOPImageHeader img {
     max-width: 100%;
     height: auto;
+}
+
+/* hero space jumbotron for dogs */
+.dogjumbotron {
+    background-color: #6BB5E9;
+}
+.sectiontitle {
+    color: #157EBF;
+}
+/* row alignment with text */
+
+/* .row1 {
+    margin: 5% auto;
+    justify-content: center;
+  }
+.row1:after {
+content: "";
+display: table;
+clear: both;
+} */
+
+h3 {
+    text-align: left;
 }
