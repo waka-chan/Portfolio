@@ -229,7 +229,13 @@ font-size:15px!important
 .fa-github:hover {
   color: #DB3195;
 }
-
+.fa-envelope {
+  color: black;
+  padding: 10px;
+}
+.fa-envelope:hover {
+  color: #DB3195;
+}
 
 
 /* testing jumbotron profile image */
